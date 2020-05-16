@@ -1,6 +1,7 @@
 title: Github Docs
 description: A Jekyll theme for Github styled documentation
-url: https://boycce.github.io/github-docs/
+url: https://boycce.github.io
+baseurl: "/github-docs"
 
 author:
   name: 'Ricky Boyce'
