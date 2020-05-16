@@ -1,0 +1,25 @@
+title: Github Docs
+description: A Jekyll theme for Github styled documentation
+url: https://boycce.github.io/github-docs/
+
+author:
+  name: 'Ricky Boyce'
+  url:  https://rickyboyce.com
+
+# Aux links for the naviation
+aux_links:
+  "Github docs on GitHub":
+    - "//github.com/boycce/github-docs"
+
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - node_modules
+
+sass:
+  style: :compressed
+
+# Custom vars
+# logo: "/assets/images/just-the-docs.png"
+# ga_tracking: UA-2709176-10

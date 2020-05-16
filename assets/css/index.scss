@@ -1,0 +1,16 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+{% if site.logo %}
+  $logo: "{{ site.logo | absolute_url }}";
+{% endif %}
+
+@import "primer-support/index.scss";
+@import "primer-base/index.scss";
+@import "primer-utilities/index.scss";
+@import "primer-layout/index.scss";
+@import "primer-markdown/index.scss";
+@import "github-docs";
+@import "rouge";
