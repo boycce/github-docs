@@ -53,9 +53,10 @@ $menu-color: #483973;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #eee;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5em;
-    font-weight: 600;
+    font-weight: 900;
+    letter-spacing: -0.5px;
   }
   .sidebar-heading a {
     color: #232035;
