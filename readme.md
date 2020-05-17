@@ -2,9 +2,9 @@
 
 A Jekyll theme for Github styled documentation
 
-### Github pages usage
+### Theme usage
 
-Just add this line to your _config.yml file:
+Add a _config.yml file with this line:
 ```yaml
 theme: jekyll-theme-primer
 ```
@@ -32,3 +32,8 @@ $ gem install github-docs
 2. `$ bundle install` (install theme deps)
 3. `$ bundle exec` (build files)
 3. `$ jekyll serve`
+
+### Publishing Gem
+
+1. `$ gem build github-docs.gemspec`
+2. `$ gem push github-docs-*.gem`
