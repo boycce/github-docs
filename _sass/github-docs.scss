@@ -20,6 +20,7 @@ $menu-color: #483973;
     display: block;
     max-width: 890px;
     margin: 0 auto;
+    padding-top: 3em !important;
   }
   @media (max-width: 800px) {
     .content {
@@ -201,6 +202,17 @@ $menu-color: #483973;
   .navigation-list-link:hover:before {
     background-color: $menu-color;
     transform: translateX(0);
+  }
+
+  /* submenu */
+
+  .navigation-list ul {
+    padding-left: 0;
+    display: block;
+    list-style: none;
+  }
+  .navigation-list ul .navigation-list-link {
+    padding-left: 50px;
   }
 
   /* aux navigation */
