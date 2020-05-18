@@ -12,9 +12,9 @@ aux_links:
   "Github docs on GitHub":
     - "//github.com/boycce/github-docs"
 
+# https://pages.github.com/versions/
 plugins:
   - jekyll-seo-tag
-  - jekyll-target-blank
 
 sass:
   style: :compressed

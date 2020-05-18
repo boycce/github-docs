@@ -17,5 +17,4 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'jekyll', '>= 3.5', '< 5.0'
   s.add_runtime_dependency 'jekyll-github-metadata', '~> 2.9'
   s.add_runtime_dependency 'jekyll-seo-tag', '~> 2.0'
-  s.add_runtime_dependency 'jekyll-target-blank', '~> 2.0'
 end

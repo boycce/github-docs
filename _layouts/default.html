@@ -17,7 +17,7 @@
       </div>
       <div class="content">
         <div class="content-body p-6 markdown-body">
-          {{ content }}
+          {{ content | replace: '<a href="http', '<a rel="nofollow noopener noreferrer" target="_blank" href="http' }}
           {% if page.has_children == true and page.has_toc != false %}
             <hr>
             <h2 class="text-delta">Table of contents</h2>
