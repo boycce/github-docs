@@ -6,31 +6,31 @@ A Jekyll theme for Github styled documentation
 
 Add a _config.yml file with this line:
 ```yaml
-theme: github-docs
+remote_theme: boycce/github-docs
 ```
 
-### Preview jekyll theme locally
+### Preview theme locally via github-pages
 
-Add the following to your site's Gemfile:
+Add a Gemfile in your documention root
 ```ruby
-gem "github-docs"
+source 'https://rubygems.org'
+gem 'github-pages', group: :jekyll_plugins
 ```
 
-And then execute:
+then update `github-pages` and the `theme`
 ```
-$ bundle
+$ bundle update
 ```
 
-Or install it yourself as:
+run via
 ```
-$ gem install github-docs
+$ bundle exec jekyll serve
 ```
 
 ### Development
 
 1. `$ gem install bundler`
 2. `$ bundle install` (install theme deps)
-3. `$ bundle exec` (build files)
 3. `$ jekyll serve`
 
 ### Publishing Gem
