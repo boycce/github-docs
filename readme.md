@@ -6,7 +6,7 @@ A Jekyll theme for Github styled documentation
 
 Add a _config.yml file with this line:
 ```yaml
-theme: jekyll-theme-primer
+theme: github-docs
 ```
 
 ### Preview jekyll theme locally

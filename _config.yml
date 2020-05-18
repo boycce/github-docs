@@ -14,6 +14,7 @@ aux_links:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-target-blank
 
 sass:
   style: :compressed
