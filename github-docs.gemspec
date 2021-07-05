@@ -13,8 +13,10 @@ Gem::Specification.new do |s|
     f.match(%r{^(assets|_includes|_layouts|_sass|readme)}i)
   end
 
-  s.add_runtime_dependency "bundler", "~> 2.1.4"
-  s.add_runtime_dependency 'jekyll', '>= 3.5', '< 5.0'
-  s.add_runtime_dependency 'jekyll-github-metadata', '~> 2.9'
-  s.add_runtime_dependency 'jekyll-seo-tag', '~> 2.0'
+  # see versions: https://pages.github.com/versions
+  s.add_runtime_dependency "bundler"
+  s.add_runtime_dependency 'jekyll', "~> 3.9.0"
+  s.add_runtime_dependency 'jekyll-github-metadata', "~> 2.13.0"
+  s.add_runtime_dependency 'jekyll-seo-tag', "~> 2.7.1"
+  s.add_runtime_dependency 'kramdown-parser-gfm', "~> 1.1.0"
 end
