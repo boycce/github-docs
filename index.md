@@ -32,6 +32,8 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
+This is an `inline` code element
+
 #### Header 4
 
 *   This is an unordered list following a header.
@@ -116,3 +118,8 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
+
+### HTML is supported via kramdown
+
+<span class="text-primary">Primary</span>
+<span class="text-secondary">Secondary</span>

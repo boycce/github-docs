@@ -1,5 +1,12 @@
-.highlight table td { padding: 5px; }
-.highlight table pre { margin: 0; }
+.highlight {
+  background-color: #f8f8f8;
+  table td {
+    padding: 5px;
+  }
+  table pre {
+    margin: 0;
+  }
+}
 .highlight .cm {
   color: #999988;
   font-style: italic;
@@ -17,7 +24,8 @@
   font-weight: bold;
   font-style: italic;
 }
-.highlight .c, .highlight .cd {
+.highlight .c,
+.highlight .cd {
   color: #999988;
   font-style: italic;
 }
@@ -82,7 +90,8 @@
   color: #445588;
   font-weight: bold;
 }
-.highlight .k, .highlight .kv {
+.highlight .k,
+.highlight .kv {
   color: #000000;
   font-weight: bold;
 }
@@ -101,7 +110,9 @@
 .highlight .mo {
   color: #009999;
 }
-.highlight .m, .highlight .mb, .highlight .mx {
+.highlight .m,
+.highlight .mb,
+.highlight .mx {
   color: #009999;
 }
 .highlight .sb {
@@ -203,7 +214,4 @@
 }
 .highlight .w {
   color: #bbbbbb;
-}
-.highlight {
-  background-color: #f8f8f8;
 }

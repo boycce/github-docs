@@ -18,7 +18,7 @@ A Jekyll theme for Github styled documentation
     ```
 2. Then update `github-pages` and the `theme`
     ```
-    $ bundle update
+    $ bundle install // or bundle update
     ```
 3. And run
     ```
@@ -28,8 +28,8 @@ A Jekyll theme for Github styled documentation
 ### Development
 
 1. Install rvm/ruby `^2.7.3` if not having done so already
-2. `$ gem install jekyll bundler jekyll-github-metadata jekyll-seo-tag ` (not sudo, or....)
-3. `$ bundle install` (install theme deps automatically)
+2.a. `$ gem install jekyll bundler jekyll-github-metadata jekyll-seo-tag ` (not sudo, or....)
+2.b. `$ bundle install` (install theme deps automatically)
 4. `$ jekyll serve`
 
 ### Publishing Gem

@@ -9,11 +9,19 @@ $menu-color: #483973;
     max-width: 1400px;
     margin: 0 auto;
   }
-  .content {
+  .main {
     display: block;
     margin-left: $sidebar-width;
   }
-  .content-edit-md {
+  .main-body {
+    display: block;
+    max-width: 910px;
+    margin: 0 auto;
+    padding: 40px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
+  .main-edit-pencil {
     float: right;
     display: block;
     margin-top: 24px !important;
@@ -28,6 +36,7 @@ $menu-color: #483973;
       fill: #6a737d;
     }
     &:hover,
+    &:focus,
     &:active {
       background-color: #F3F4F6;
       border-color: #1b1f2326;
@@ -35,21 +44,15 @@ $menu-color: #483973;
     }
   }
   .markdown-body {
-    > .content-edit-md + * {
+    > .main-edit-pencil + * {
       margin-top: 0 !important;
     }
   }
-  .content-heading {
+  .main-heading {
     display: block;
-  }
-  .content-body {
-    display: block;
-    max-width: 890px;
-    margin: 0 auto;
-    padding-top: 3em !important;
   }
   @media (max-width: 800px) {
-    .content {
+    .main {
       margin-left: 0;
     }
   }
@@ -94,12 +97,14 @@ $menu-color: #483973;
     padding: 9px 25px;
     font-size: 14px;
     font-weight: 600;
+    line-height: 1.5em;
     color: #fff;
     background-color: #483973;
     border-radius: 3px;
     border: 0;
     box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.08);
     transition: box-shadow 0.2s ease;
+    cursor: pointer;
   }
   .sidebar-heading button:hover {
     box-shadow: 0 4px 6px rgba(50,50,93,0.3), 0 1px 3px rgba(0,0,0,0.3);
@@ -131,9 +136,6 @@ $menu-color: #483973;
   .sidebar-close img {
     width: 22px;
     margin-left: -2px;
-  }
-  .sidebar-close:hover {
-
   }
   @media (max-width: 800px) {
     .sidebar {
@@ -204,10 +206,11 @@ $menu-color: #483973;
     padding-bottom: 5px;
     color: $menu-color;
     font-size: 1.1em;
+    text-decoration: none !important;
   }
   .navigation-list-link.active,
   .navigation-list-link:hover {
-    text-decoration: none;
+    text-decoration: none !important;
     color: darken($menu-color, 40%);
   }
   .navigation-list-link:before {
