@@ -18,6 +18,7 @@ A Jekyll theme for Github styled documentation
     # gem 'github-pages', group: :jekyll_plugins
 
     # Below pulls the latest remote_theme in development
+    # https://github.com/MichaelCurrin/jekyll-theme-quickstart/tree/gh-pages
     source 'https://rubygems.org'
     gem "github-docs", git: "https://github.com/boycce/github-docs"
     group :jekyll_plugins do
