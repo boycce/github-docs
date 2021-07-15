@@ -13,8 +13,16 @@ A Jekyll theme for Github styled documentation
 
 1. To preview this theme in your project via `github-pages`, add a Gemfile in your root folder
     ```ruby
+    # (old)
+    # source 'https://rubygems.org'
+    # gem 'github-pages', group: :jekyll_plugins
+
+    # Below pulls the latest remote_theme in development
     source 'https://rubygems.org'
-    gem 'github-pages', group: :jekyll_plugins
+    gem "github-docs", git: "https://github.com/boycce/github-docs"
+    group :jekyll_plugins do
+      gem "jekyll-remote-theme", "~> 0.4.2"
+    end
     ```
 2. Then update `github-pages` and the `theme`
     ```
