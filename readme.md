@@ -37,8 +37,8 @@ A Jekyll theme for Github styled documentation
 ### Development
 
 1. Install rvm/ruby `^2.7.3` if not having done so already
-2.a. `$ gem install jekyll bundler jekyll-github-metadata jekyll-seo-tag ` (not sudo, or....)
-2.b. `$ bundle install` (install theme deps automatically)
+2. (a) `$ gem install jekyll bundler jekyll-github-metadata jekyll-seo-tag ` (not sudo, or....)
+3. (b) `$ bundle install` (install theme deps automatically)
 4. `$ jekyll serve`
 
 ### Publishing Gem
