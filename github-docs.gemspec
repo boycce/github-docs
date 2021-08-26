@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name          = 'github-docs'
-  s.version       = '0.0.17'
+  s.version       = '0.0.18'
   s.authors       = ['Ricky Boyce']
   s.email         = ['example@email.com']
   s.homepage      = 'https://github.com/boycce/github-docs'
@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.license       = 'MIT'
 
   s.files         = `git ls-files -z`.split("\x0").select do |f|
-    f.match(%r{^(assets|_includes|_layouts|readme)}i)
+    f.match(%r{^(assets|_includes|_layouts|_sass|readme)}i)
   end
 
   # see versions: https://pages.github.com/versions
