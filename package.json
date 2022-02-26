@@ -1,0 +1,14 @@
+{
+  "name": "github-docs",
+  "description": "A Jekyll theme for Github styled documentation",
+  "version": "0.0.22",
+  "license": "MIT",
+  "author": "Ricky Boyce",
+  "scripts": {
+    "release": "rm ./*.gem 2>/dev/null && gem build github-docs.gemspec && gem push github-docs-*.gem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boycce/github-docs.git"
+  },
+}
