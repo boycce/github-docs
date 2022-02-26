@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name          = 'github-docs'
-  s.version       = '0.0.24'
+  s.version       = '0.1.0'
   s.authors       = ['Ricky Boyce']
   s.email         = ['example@email.com']
   s.homepage      = 'https://github.com/boycce/github-docs'
