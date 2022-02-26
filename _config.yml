@@ -16,8 +16,8 @@ aux_links:
 plugins:
   - jekyll-seo-tag
 
-sass:
-  style: :compressed
+# sass:
+#   style: :compressed
 
 # Custom vars
 # logo: "/assets/images/just-the-docs.png"
