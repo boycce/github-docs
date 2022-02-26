@@ -12,7 +12,6 @@ aux_links:
   "Github docs on GitHub":
     - "https://github.com/boycce/github-docs"
 
-# https://pages.github.com/versions/
 plugins:
   - jekyll-seo-tag
 
