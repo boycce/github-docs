@@ -15,8 +15,8 @@ Gem::Specification.new do |s|
 
   # see versions: https://pages.github.com/versions
   s.add_runtime_dependency "bundler"
-  s.add_runtime_dependency 'jekyll', "~> 3.9.0"
-  s.add_runtime_dependency 'jekyll-github-metadata', "~> 2.13.0"
-  s.add_runtime_dependency 'jekyll-seo-tag', "~> 2.7.1"
-  s.add_runtime_dependency 'kramdown-parser-gfm', "~> 1.1.0"
+  s.add_runtime_dependency 'jekyll', "3.9.0"
+  s.add_runtime_dependency 'jekyll-github-metadata', "2.13.0"
+  s.add_runtime_dependency 'jekyll-seo-tag', "2.7.1"
+  s.add_runtime_dependency 'kramdown-parser-gfm', "1.1.0"
 end
