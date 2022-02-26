@@ -9,7 +9,7 @@ A Jekyll theme for Github styled documentation
     remote_theme: boycce/github-docs
     ```
 
-### Theme preview
+### Theme local preview
 
 1. To preview this theme in your project via `github-pages`, add a Gemfile in your root folder
     ```ruby
@@ -26,7 +26,7 @@ A Jekyll theme for Github styled documentation
     ```
 2. Then update `github-pages` and the `theme`
     ```
-    $ bundle install // or bundle update
+    $ bundle install // bundle update to refresh gems
     ```
 3. And run
     ```
