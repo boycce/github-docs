@@ -44,3 +44,5 @@ A Jekyll theme for Github styled documentation
 
 1. `$ gem build github-docs.gemspec`
 2. `$ gem push github-docs-*.gem`
+or
+1. `$ rm ./*.gem 2>/dev/null && gem build github-docs.gemspec && gem push github-docs-*.gem`
