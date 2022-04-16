@@ -9,7 +9,7 @@ A Jekyll theme for Github styled documentation
     remote_theme: boycce/github-docs
     ```
 
-### Theme local preview
+### Theme usage (local preview)
 
 1. To preview this theme for your project, add the following Gemfile in your root folder
     ```ruby
