@@ -2,6 +2,7 @@ title: Github Docs
 description: A Jekyll theme for Github styled documentation
 github_url: "https://github.com/boycce/github-docs"
 basedir: ""
+favicon: "/assets/imgs/favicon.ico"
 
 author:
   name: 'Ricky Boyce'
@@ -19,5 +20,5 @@ sass:
   style: :compressed
 
 # Custom vars
-# logo: "/assets/images/just-the-docs.png"
+# logo: "/assets/imgs/logo.png"
 # ga_tracking: UA-2709176-10
